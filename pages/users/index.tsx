@@ -2,10 +2,10 @@ import { GetStaticProps } from "next";
 import Link from "next/link";
 import React from "react";
 
-import { User } from "../../src/interfaces";
-import { sampleUserData } from "../../src/utils/sample-data";
-import Layout from "../../src/components/Layout";
-import List from "../../src/components/List";
+import { User } from "src/interfaces";
+import { sampleUserData } from "src/utils/sample-data";
+import Layout from "src/components/Layout";
+import List from "src/components/List";
 
 export const getStaticProps: GetStaticProps = async () => {
   // Example for including static props in a Next.js function component page.

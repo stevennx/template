@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
-
-import { User } from "../interfaces";
+import { User } from "src/interfaces";
 
 type Props = {
   data: User;
