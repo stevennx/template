@@ -19,6 +19,7 @@
 .DS_Store
 *.pem
 .vscode/snipsnap.code-snippets
+.husky
 
 # debug
 npm-debug.log*
