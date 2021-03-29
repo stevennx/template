@@ -12,7 +12,8 @@
     "lint:check": "eslint \"./**/*.{js,ts,tsx,jsx}\" --quiet",
     "check": "npm run format:check && npm run lint:check",
     "check:fix": "npm run format && npm run lint",
-    "prepare": "husky install && npx husky add .husky/pre-push 'npm run check:fix'"
+    "prepare": "husky install",
+    "husky:pre-push": "npx husky add .husky/pre-push 'npm run check:fix'"
   },
   "dependencies": {
     "@emotion/react": "^11.1.5",
