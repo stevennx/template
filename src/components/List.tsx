@@ -1,4 +1,5 @@
-import * as React from "react";
+import React from "react";
+
 import ListItem from "./ListItem";
 import { User } from "../interfaces";
 
@@ -6,7 +7,7 @@ type Props = {
   items: User[];
 };
 
-const List = ({ items }: Props) => (
+const List: React.FC<Props> = ({ items }) => (
   <ul>
     {items.map((item) => (
       <li key={item.id}>
